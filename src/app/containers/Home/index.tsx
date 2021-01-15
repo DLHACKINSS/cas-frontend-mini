@@ -59,7 +59,6 @@ function LandingPage() {
         dataSource={Content00DataSource}
       />
       <Content5 id="Content5_0" key="Content5_0" />
-      <Content4 id="Content4_0" key="Content4_0" />
       <Content3 id="Content3_0" key="Content3_0" />
     </>
   );

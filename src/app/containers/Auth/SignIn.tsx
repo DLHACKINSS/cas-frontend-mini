@@ -109,7 +109,8 @@ export default function SignIn() {
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
-              <NavLink to="/forgot-password">Forgot Password</NavLink>
+              {/* <NavLink to="/forgot-password">Forgot Password</NavLink> */}
+              <a href="http://localhost">Forgot Password</a>
             </Row>
           </Form.Item>
           {error && (

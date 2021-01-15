@@ -1,11 +1,21 @@
 @content5: content5;
 .@{content5}-wrapper {
   background-color: #fafafa;
-  height: 49rem;
+  height: 40rem;
   .@{content5} {
     padding: 4rem 2rem;
     .slick-slide {
       padding: 0 0.3rem;
+    }
+    .ant-card-body {
+      padding: 1rem;
+      .ant-card-meta {
+        min-height: 7rem;
+        &-title {
+          white-space: normal;
+          min-height: 3rem;
+        }
+      }
     }
     .package {
       height: 33rem;

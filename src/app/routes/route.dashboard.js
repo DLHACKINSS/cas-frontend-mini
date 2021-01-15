@@ -6,11 +6,9 @@ import {
   ShoppingCartOutlined,
   UserOutlined,
 } from '@ant-design/icons';
-import Instances from 'app/containers/Compute/Instances';
-import Orders from 'app/containers/Orders';
-import DataViewKeypairs from 'app/containers/Compute/Keypairs/DataViewKeypairs';
-import React from 'react';
+import { Landing } from 'app/containers/Home/Loadable';
 import Users from 'app/containers/Users';
+import React from 'react';
 
 export const dashboardRoutes = [
   {
@@ -23,14 +21,14 @@ export const dashboardRoutes = [
         name: 'Instances',
         icon: <HddOutlined />,
         exact: true,
-        component: <Instances />,
+        component: <Landing />,
       },
       {
         path: '/keypairs',
         name: 'Keypairs',
         icon: <KeyOutlined />,
         exact: true,
-        component: <DataViewKeypairs />,
+        component: <Landing />,
       },
       // {
       //   path: '/security',
@@ -51,7 +49,7 @@ export const dashboardRoutes = [
         name: 'Overviews',
         icon: <FundOutlined />,
         exact: true,
-        component: <Orders />,
+        component: <Landing />,
       },
     ],
   },

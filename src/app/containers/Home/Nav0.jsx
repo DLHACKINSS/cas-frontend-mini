@@ -111,7 +111,7 @@ function Header(props) {
               </span>
               <span>
                 <MailFilled />
-                &nbsp; Email: ftel.ftihn.idc@fpt.com.vn
+                &nbsp; Email: tongdaihotro@azunce.com.vn
               </span>
             </Space>
           </Row>
@@ -127,7 +127,7 @@ function Header(props) {
       <Row wrap={false} className="header-landing--bottom">
         <Col span={2} push={1}>
           <NavLink to="/">
-            <img src={logo} width={90} alt=""></img>
+            <img src={logo} width={50} alt=""></img>
           </NavLink>
         </Col>
         <Col span={21} className="right">
@@ -153,7 +153,7 @@ function Header(props) {
                     className={`${isScroll}`}
                     style={{ padding: 0 }}
                   >
-                    SẢN PHẨM
+                    KHÓA HỌC
                     <CaretDownOutlined />
                   </Button>
                 </Dropdown>
@@ -177,10 +177,7 @@ function Header(props) {
               {account ? (
                 <>
                   <Menu.Item key="3" style={{ marginRight: 0 }}>
-                    <NavLink
-                      to="/dashboard/compute/instances"
-                      className={`${isScroll}`}
-                    >
+                    <NavLink to="/dashboard/users" className={`${isScroll}`}>
                       DASHBOARD
                     </NavLink>
                   </Menu.Item>
@@ -192,12 +189,12 @@ function Header(props) {
                 <>
                   <Menu.Item key="3">
                     <NavLink to="sign-in" className={`${isScroll}`}>
-                      SIGN IN
+                      ĐĂNG NHẬP
                     </NavLink>
                   </Menu.Item>
                   <Menu.Item key="4" style={{ marginRight: 0 }}>
                     <NavLink to="sign-up" className={`${isScroll}`}>
-                      SIGN UP
+                      ĐĂNG KÍ
                     </NavLink>
                   </Menu.Item>
                 </>

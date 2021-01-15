@@ -15,7 +15,7 @@ export const Content00DataSource = {
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
-    children: [{ name: 'title', children: 'Dịch Vụ' }],
+    children: [{ name: 'title', children: 'Điểm đột phá' }],
   },
   childWrapper: {
     className: 'content0-block-wrapper',
@@ -32,17 +32,16 @@ export const Content00DataSource = {
               name: 'image',
               className: 'content0-block-icon',
               children:
-                'https://bizflycloud.mediacdn.vn/bizflycloud/69/1/2020/06/29/15/57/clo15933994766576.png',
+                'https://cdn.hachium.com/users/63b473111695d3a2ea83bb8736b484a6/1578132820447.png',
             },
             {
               name: 'title',
               className: 'content0-block-title',
-              children: 'Virtual Datacenter',
+              children: 'Nhóm kín Facebook thảo luận',
             },
             {
               name: 'content',
-              children:
-                'Khởi tạo nhanh chóng, cấu hình mạnh mẽ, thay đổi linh hoạt, cung cấp toàn quyền điều khiển cho người dùng',
+              children: '',
             },
           ],
         },
@@ -59,17 +58,16 @@ export const Content00DataSource = {
               name: 'image',
               className: 'content0-block-icon',
               children:
-                'https://bizflycloud.mediacdn.vn/bizflycloud/69/1/2020/06/29/15/57/clo15933994766576.png',
+                'https://cdn.hachium.com/users/63b473111695d3a2ea83bb8736b484a6/1578132327681.png',
             },
             {
               name: 'title',
               className: 'content0-block-title',
-              children: 'Virtual Datacenter',
+              children: 'Học bất cứ khi nào bạn thích',
             },
             {
               name: 'content',
-              children:
-                'Khởi tạo nhanh chóng, cấu hình mạnh mẽ, thay đổi linh hoạt, cung cấp toàn quyền điều khiển cho người dùng',
+              children: '',
             },
           ],
         },
@@ -86,17 +84,16 @@ export const Content00DataSource = {
               name: 'image',
               className: 'content0-block-icon',
               children:
-                'https://bizflycloud.mediacdn.vn/bizflycloud/69/1/2020/06/29/15/57/clo15933994766576.png',
+                'https://cdn.hachium.com/users/63b473111695d3a2ea83bb8736b484a6/1578132851130.jpg',
             },
             {
               name: 'title',
               className: 'content0-block-title',
-              children: 'Virtual Datacenter',
+              children: 'Sở hữu tài liệu trọn đời',
             },
             {
               name: 'content',
-              children:
-                'Khởi tạo nhanh chóng, cấu hình mạnh mẽ, thay đổi linh hoạt, cung cấp toàn quyền điều khiển cho người dùng',
+              children: '',
             },
           ],
         },
@@ -120,7 +117,7 @@ export const Footer10DataSource = {
         title: {
           className: 'logo',
           children:
-            'https://upload.wikimedia.org/wikipedia/vi/a/a2/FPT_Telecom_logo.svg',
+            'https://www.flaticon.com/svg/vstatic/svg/2991/2991146.svg?token=exp=1610685369~hmac=660c4bb95388f9ff032fe5b2958d294d',
         },
         childWrapper: {
           className: 'slogan',
@@ -128,7 +125,9 @@ export const Footer10DataSource = {
             {
               name: 'content0',
               children: (
-                <p className="my-2">CÔNG TY TNHH MTV VIỄN THÔNG QUỐC TẾ FPT</p>
+                <p className="my-2">
+                  CÔNG TY TNHH MTV VIỄN THÔNG QUỐC TẾ AZUNCE
+                </p>
               ),
             },
             {
@@ -172,7 +171,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: 'Về FTI VDC' },
+        title: { children: 'Về AZUNCE' },
         childWrapper: {
           children: [
             { href: '#', name: 'link0', children: 'FAQ' },
@@ -238,7 +237,7 @@ export const Footer10DataSource = {
     children: (
       <>
         <p className="pb-1">
-          © 2020 TNHH MTV viễn thông quốc tế FPT. All Rights Reserved
+          © 2020 TNHH MTV viễn thông quốc tế AZUNCE. All Rights Reserved
         </p>
       </>
     ),
@@ -247,178 +246,46 @@ export const Footer10DataSource = {
 
 export const PackageData = [
   {
-    name: 'Basic-Small',
-    price: 880000,
-    products: [
-      {
-        id: 1,
-        name: 'CPU',
-        quantity: 1,
-        description: 'Intel Xeon',
-        is_base: true,
-        unit: 'vCPU',
-      },
-      {
-        id: 2,
-        name: 'MEMORY',
-        quantity: 4,
-        unit: 'GB',
-        is_base: true,
-      },
-      {
-        id: 3,
-        name: 'DISK',
-        quantity: 60,
-        description: 'Intel Xeon',
-        unit: 'GB',
-        is_base: true,
-      },
-    ],
+    image:
+      'https://hachium.storage.googleapis.com/users/839565e25cb134b083290afa13615fe9/1608280755221.jpg',
+    title: 'Khóa học bán hàng trên Shopee cho người mới',
+    description: 'Bùi Thanh Thịnh',
+    price: 499000,
   },
   {
-    name: 'Basic-Small',
-    price: 880000,
-    products: [
-      {
-        id: 1,
-        name: 'CPU',
-        quantity: 1,
-        description: 'Intel Xeon',
-        is_base: true,
-        unit: 'vCPU',
-      },
-      {
-        id: 2,
-        name: 'MEMORY',
-        quantity: 4,
-        unit: 'GB',
-        is_base: true,
-      },
-      {
-        id: 3,
-        name: 'DISK',
-        quantity: 60,
-        description: 'Intel Xeon',
-        unit: 'GB',
-        is_base: true,
-      },
-    ],
+    image:
+      'https://hachium.storage.googleapis.com/users/839565e25cb134b083290afa13615fe9/1608281070158.jpg',
+    title: 'Khoá học quảng cáo Google mạng tìm kiếm',
+    description: 'Bùi Thanh Thịnh',
+    price: 399000,
   },
   {
-    name: 'Basic-Small',
-    price: 880000,
-    products: [
-      {
-        id: 1,
-        name: 'CPU',
-        quantity: 1,
-        description: 'Intel Xeon',
-        is_base: true,
-        unit: 'vCPU',
-      },
-      {
-        id: 2,
-        name: 'MEMORY',
-        quantity: 4,
-        unit: 'GB',
-        is_base: true,
-      },
-      {
-        id: 3,
-        name: 'DISK',
-        quantity: 60,
-        description: 'Intel Xeon',
-        unit: 'GB',
-        is_base: true,
-      },
-    ],
+    image:
+      'https://hachium.storage.googleapis.com/users/839565e25cb134b083290afa13615fe9/1608276435076.jpg',
+    title: 'Khoá học quảng cáo Facebook',
+    description: 'Bùi Thanh Thịnh',
+    price: 489000,
   },
   {
-    name: 'Basic-Small',
-    price: 880000,
-    products: [
-      {
-        id: 1,
-        name: 'CPU',
-        quantity: 1,
-        description: 'Intel Xeon',
-        is_base: true,
-        unit: 'vCPU',
-      },
-      {
-        id: 2,
-        name: 'MEMORY',
-        quantity: 4,
-        unit: 'GB',
-        is_base: true,
-      },
-      {
-        id: 3,
-        name: 'DISK',
-        quantity: 60,
-        description: 'Intel Xeon',
-        unit: 'GB',
-        is_base: true,
-      },
-    ],
+    image:
+      'https://hachium.storage.googleapis.com/users/839565e25cb134b083290afa13615fe9/1608281370861.jpg',
+    title: 'Khoá học thiết kế website bán hàng WordPress',
+    description: 'Bùi Thanh Thịnh',
+    price: 399000,
   },
   {
-    name: 'Basic-Small',
-    price: 880000,
-    products: [
-      {
-        id: 1,
-        name: 'CPU',
-        quantity: 1,
-        description: 'Intel Xeon',
-        is_base: true,
-        unit: 'vCPU',
-      },
-      {
-        id: 2,
-        name: 'MEMORY',
-        quantity: 4,
-        unit: 'GB',
-        is_base: true,
-      },
-      {
-        id: 3,
-        name: 'DISK',
-        quantity: 60,
-        description: 'Intel Xeon',
-        unit: 'GB',
-        is_base: true,
-      },
-    ],
+    image:
+      'https://hachium.storage.googleapis.com/users/839565e25cb134b083290afa13615fe9/1608281370861.jpg',
+    title: 'Khoá học thiết kế website bán hàng WordPress',
+    description: 'Bùi Thanh Thịnh',
+    price: 299000,
   },
   {
-    name: 'Basic Small',
-    price: 880000,
-    products: [
-      {
-        id: 1,
-        name: 'CPU',
-        quantity: 1,
-        description: 'Intel Xeon',
-        is_base: true,
-        unit: 'vCPU',
-      },
-      {
-        id: 2,
-        name: 'MEMORY',
-        quantity: 4,
-        unit: 'GB',
-        is_base: true,
-      },
-      {
-        id: 3,
-        name: 'DISK',
-        quantity: 60,
-        description: 'Intel Xeon',
-        unit: 'GB',
-        is_base: true,
-      },
-    ],
+    image:
+      'https://hachium.storage.googleapis.com/users/839565e25cb134b083290afa13615fe9/1608280555623.jpg',
+    title: 'Bán hàng trên Youtube hiệu quả',
+    description: 'Bùi Thanh Thịnh',
+    price: 699000,
   },
 ];
 

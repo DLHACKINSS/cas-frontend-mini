@@ -110,7 +110,7 @@ export default function SignIn() {
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
               {/* <NavLink to="/forgot-password">Forgot Password</NavLink> */}
-              <a href="http://localhost">Forgot Password</a>
+              <a href="http://portal.azunce.xyz">Forgot Password</a>
             </Row>
           </Form.Item>
           {error && (

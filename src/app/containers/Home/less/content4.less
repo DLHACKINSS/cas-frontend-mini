@@ -1,0 +1,41 @@
+@content4: content4;
+.@{content4}-wrapper {
+  min-height: 32rem;
+  background-color: #fafafa;
+  .@{content4} {
+    height: 100%;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    span {
+      font-size: large;
+    }
+    button {
+      span {
+        font-size: small;
+      }
+    }
+    & .title-content {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content4}-wrapper {
+    min-height: 1080px;
+    .@{content4} {
+      &-block-wrapper {
+        margin: 20px auto;
+        height: auto;
+        .@{content4}-block {
+          .@{content4}-title {
+            font-size: 20px;
+          }
+          &.queue-anim-leaving {
+            position: relative !important;
+          }
+        }
+      }
+    }
+  }
+}

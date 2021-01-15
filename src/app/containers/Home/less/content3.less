@@ -1,0 +1,36 @@
+@content3: content3;
+.@{content3}-wrapper {
+  min-height: 32rem;
+  background-color: #fafafa;
+  .@{content3} {
+    height: 100%;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    .our-customer {
+      filter: grayscale();
+      &:hover {
+        filter: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content3}-wrapper {
+    min-height: 1080px;
+    .@{content3} {
+      &-block-wrapper {
+        margin: 20px auto;
+        height: auto;
+        .@{content3}-block {
+          .@{content3}-title {
+            font-size: 20px;
+          }
+          &.queue-anim-leaving {
+            position: relative !important;
+          }
+        }
+      }
+    }
+  }
+}

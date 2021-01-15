@@ -1,0 +1,311 @@
+[33mcommit 9dd6bb4bafb17e2303095c8d7baa8d288f25c002[m[33m ([m[1;36mHEAD -> [m[1;32mhoandm[m[33m, [m[1;31morigin/hoandm[m[33m)[m
+Merge: 9a5841a 848dba4
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Sun Jan 10 14:31:27 2021 +0700
+
+    features delete compute
+
+[33mcommit 9a5841a419e3b1711efdfea1bd5b06bae9e41d0b[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Fri Jan 8 08:59:07 2021 +0700
+
+    backup files
+
+[33mcommit 848dba4d1a718ffb5dfa1f5350834798946b0c6f[m[33m ([m[1;31morigin/long[m[33m)[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Fri Jan 8 08:57:06 2021 +0700
+
+    update UI
+
+[33mcommit c0b43860a21ecc9a9668889a1baa79dba5106ec2[m
+Merge: 5cee29d e957aeb
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Thu Jan 7 20:43:40 2021 +0700
+
+    merge long
+
+[33mcommit 5cee29d91e7918421763df7f7318c3d02f3173ba[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Thu Jan 7 20:22:12 2021 +0700
+
+    snapshot
+
+[33mcommit e957aeb55d55d07e9d9e603a0b5409294b5dd42d[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Thu Jan 7 20:17:11 2021 +0700
+
+    update UI
+
+[33mcommit 3c65a52bb1da69b7053b57b8347d89f814721db4[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Thu Jan 7 20:01:26 2021 +0700
+
+    update UI
+
+[33mcommit 891a09d647263e1a02d1839f0150d8bb45528d9b[m
+Merge: ab97163 c2ad39f
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Thu Jan 7 16:06:15 2021 +0700
+
+    merge long
+
+[33mcommit c2ad39fc0664997f3a13ff31a9cb96cf8797b7a7[m[33m ([m[1;32mlong[m[33m)[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Thu Jan 7 15:50:39 2021 +0700
+
+    order Landing
+
+[33mcommit ab971633218abdbb41227bf5871b5f0751fdd00b[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Thu Jan 7 15:50:03 2021 +0700
+
+    done edit order
+
+[33mcommit ba75a06a17e82d8dbb933645d945358883c963e8[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Jan 6 19:22:37 2021 +0700
+
+    fix get profile
+
+[33mcommit 7031580cb6ac05f09cdf138bebfb4f7e7adb7334[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Jan 6 16:39:41 2021 +0700
+
+    abc
+
+[33mcommit 54e9df01c61b5adbc3c252c4b0222150c79cc0c0[m
+Merge: f29729c 1fe6741
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Wed Jan 6 16:06:33 2021 +0700
+
+    merge long
+
+[33mcommit f29729ce9981fa093fc38067a218802ad19d2df5[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Wed Jan 6 16:01:38 2021 +0700
+
+    done orders
+
+[33mcommit 1fe6741a2188bb9a5b5e6591ed1d6079798610b4[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Jan 6 15:47:22 2021 +0700
+
+    update UI
+
+[33mcommit 31c412f3e7764ba89a3f7a8aa17a669f4806e4bd[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Jan 5 22:51:41 2021 +0700
+
+    update UI
+
+[33mcommit 1b5bb0097a0e161cf7d526f2aa7e99ed111db8b5[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Jan 5 20:11:02 2021 +0700
+
+    compute-instance
+
+[33mcommit 762a7d991b1153b8ad74577f6f6adbff5d67b516[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Jan 5 16:02:35 2021 +0700
+
+    resolve conflict
+
+[33mcommit 8730a99009721bc8ec7e5ea555c34d1bea3d940a[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Jan 5 15:50:21 2021 +0700
+
+    resolve conflict
+
+[33mcommit 4d50514cc33e37c1f842e97792a613880c2ad77d[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Jan 5 15:49:52 2021 +0700
+
+    resolve conflict
+
+[33mcommit 7839d356a4196207fd696c1a30f98d59a1914798[m
+Merge: 9522aa7 872ac58
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Jan 5 12:37:24 2021 +0700
+
+    merge long
+
+[33mcommit 9522aa78c8c8a881dace8ca515e0dd12437405f6[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Jan 5 11:47:22 2021 +0700
+
+    Review Order
+
+[33mcommit 872ac58cab92aafce34b76ced84ca3a6a94ae857[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Jan 5 11:43:13 2021 +0700
+
+    update profile feature
+
+[33mcommit 4b01389bba049bfd22c6186ff537410d6d64723a[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Mon Jan 4 08:05:05 2021 +0700
+
+    refactor code
+
+[33mcommit d4603dce0aae61e39f8507a39b113cd1dd70a237[m
+Merge: c90783f 2b042e7
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Thu Dec 31 19:53:50 2020 +0700
+
+    merge long
+
+[33mcommit c90783f50d061877c24d49210c76339e9255e127[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Thu Dec 31 19:24:12 2020 +0700
+
+    create user order
+
+[33mcommit 2b042e7814bfded9c9c8d84ecdd6f301e184d46b[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Thu Dec 31 19:18:58 2020 +0700
+
+    profile feature
+
+[33mcommit d09f6777cd64c69812f70801270b4ab4d1cdac51[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Thu Dec 31 19:00:00 2020 +0700
+
+    profile feature
+
+[33mcommit c68132b5f1794039c12bf2bcf09acac8f62de2f8[m
+Merge: 6011273 6a27817
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Dec 30 19:41:48 2020 +0700
+
+    profile feature
+
+[33mcommit 972e5e019301d1bcb9cb3efc0b3f94c22aa2cb3d[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Wed Dec 30 19:39:16 2020 +0700
+
+    Create Order
+
+[33mcommit 60112734255b3db86e765cdf36ca716c3985ca79[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Dec 30 12:36:35 2020 +0700
+
+    resolve conflict
+
+[33mcommit 6a2781733de577acb52f68328595b21f936fe4cb[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Wed Dec 30 11:23:13 2020 +0700
+
+    done api auth
+
+[33mcommit 2846add0288aad570b76401e74e7ff31e9cd8265[m
+Merge: 7c45b53 0e9f6e3
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Dec 30 08:05:28 2020 +0700
+
+    Merge branch 'hoandm' of https://git.fmeet.vn/hoandm/cas-fe into long
+
+[33mcommit 7c45b53bca8aecabce226101df4f13537ca1db50[m
+Merge: 265c058 6038f1a
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Wed Dec 30 08:05:01 2020 +0700
+
+    Merge branch 'dev' of https://git.fmeet.vn/hoandm/cas-fe into long
+
+[33mcommit 0e9f6e36795a98b712bf6ef6de47ce3c3f58bc1e[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 19:08:18 2020 +0700
+
+    aa
+
+[33mcommit fb17e6657696dd968272343f49b7d4b5dac26a88[m
+Merge: 921f65d fbf0392
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 19:06:19 2020 +0700
+
+    aa
+
+[33mcommit 921f65d41a5495132852a3013490ab22e485d67d[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 19:02:09 2020 +0700
+
+    merge long
+
+[33mcommit fbf03923634bba46522cb7a4e15bfc368fff65f8[m
+Merge: ce999cb 265c058
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 06:52:20 2020 -0500
+
+    Merge branch 'long' into 'hoandm'
+    
+    Long
+    
+    See merge request hoandm/cas-fe!8
+
+[33mcommit 265c05854e557c1db3f86a1e7f732174a466a94b[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Dec 29 18:49:52 2020 +0700
+
+    update Landing
+
+[33mcommit 26abb64943b15289c3d7cf7ad123cfd7d7b9d14d[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Dec 29 17:58:27 2020 +0700
+
+    add Effect Landing
+
+[33mcommit 6038f1af76d0823ebf8a9ba62daa323f89dc9f33[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Merge: f535391 ce999cb
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 11:29:21 2020 +0700
+
+    Merge branch 'hoandm' of https://git.fmeet.vn/hoandm/cas-fe into hoandm
+
+[33mcommit f5353915e30db791f72287b6ac67b1d4385e8b40[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 11:28:58 2020 +0700
+
+    add request.tsx
+
+[33mcommit ce999cb2ac71b99e17ac110aa76ab0c7893af52e[m
+Merge: 966430f ec9e55d
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Mon Dec 28 23:27:32 2020 -0500
+
+    Merge branch 'long' into 'hoandm'
+    
+    optimize order form
+    
+    See merge request hoandm/cas-fe!6
+
+[33mcommit ec9e55da9cfa26101ab056ebc37caaae40f2daa3[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Tue Dec 29 11:22:13 2020 +0700
+
+    optimize order form
+
+[33mcommit 966430f0005f23570ca1d269a935edd363a5de32[m
+Merge: 58f36da 8a16228
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 09:06:21 2020 +0700
+
+    UI v1
+
+[33mcommit 58f36da75adbb77c59d0ba87f13c182f615a48c9[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Tue Dec 29 08:11:18 2020 +0700
+
+    before merge
+
+[33mcommit 4b677485f57119f0f4ff5288f9814b83b54c92e6[m
+Author: HoanDM <hoandm@fpt.com.vn>
+Date:   Mon Dec 28 18:46:23 2020 +0700
+
+    edit form order
+
+[33mcommit 8a1622823a8efaad30e57f7b180d5bbf61fc03e4[m
+Author: Nguyen Long <longntt5@fpt.com.vn>
+Date:   Mon Dec 28 18:40:03 2020 +0700
+
+    update landing
+
+[33mc

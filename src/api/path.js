@@ -1,0 +1,107 @@
+// export const root = 'http://192.168.206.60:5000';
+
+const auth_api_path = 'http://183.81.35.219:8000/auth';
+const order_api_path = 'http://183.81.35.219:8000/order';
+const vdc_api_path = 'http://183.81.35.219:8000/vdc';
+
+const path = {
+  config: {
+    config: `${auth_api_path}/configs`,
+  },
+  auth: {
+    login: `${auth_api_path}/login`,
+    activate: `${auth_api_path}/activate`,
+    forgot_password: `${auth_api_path}/forgot_password`,
+    reset_password: `${auth_api_path}/reset_password`,
+  },
+  users: {
+    users: `${auth_api_path}/users`,
+    user: `${auth_api_path}/user`,
+    delete: `${auth_api_path}/user/delete`,
+    register: `${auth_api_path}/register`,
+  },
+  histories: {
+    histories: `${auth_api_path}/histories`,
+    history: `${auth_api_path}/history`,
+  },
+  orders: {
+    orders: `${order_api_path}/orders`,
+    order: `${order_api_path}/order`,
+    transactions: `${order_api_path}/order/:orderID/transactions`,
+    transaction: `${order_api_path}/order/:orderID/transaction`,
+    regions: `${order_api_path}/regions`,
+    region: `${order_api_path}/region/:regionId`,
+    instance: `${order_api_path}/products?condition=is_base__eq__1`,
+    service: `${order_api_path}/products?condition=is_base__eq__0`,
+    os: `${order_api_path}/products?condition=type__eq__OS`,
+  },
+  computes: {
+    computes: `${vdc_api_path}/computes`,
+    compute: `${vdc_api_path}/compute/:computeId`,
+    computeAction: `${vdc_api_path}/compute/:computeId/action`,
+    ssh_key: `${vdc_api_path}/ssh_key`,
+    vnc: `${vdc_api_path}/compute/:computeId/console`,
+    snapshots: `${vdc_api_path}/compute`,
+    snapshot: `${vdc_api_path}/compute/:computeId/snapshot`,
+    secgroups: `${vdc_api_path}/compute/:computeId/secgroups`,
+    secgroup: `${vdc_api_path}/compute/:computeId/secgroup/:secgroupId`,
+    rules: `${vdc_api_path}/compute/:computeId/rules`,
+    rule: `${vdc_api_path}/compute/:computeId/rule/:ruleId`,
+    backupJobs: `${vdc_api_path}/compute/:computeId/backup/jobs`,
+    backupJob: `${vdc_api_path}/compute/:computeId/backup/job`,
+    backupFiles: `${vdc_api_path}/compute/:computeId/backup/files`,
+    backupFile: `${vdc_api_path}/compute/:computeId/backup/file/:backupId`,
+    keyPairs: `${vdc_api_path}/keypairs`,
+    keyPair: `${vdc_api_path}/keypair`,
+    regions: `${vdc_api_path}/regions`,
+    region: `${vdc_api_path}/region/:regionId`,
+    schedules: `${vdc_api_path}/compute/:computeId/jobs`,
+    schedule: `${vdc_api_path}/compute/:computeId/job`,
+  },
+  flavor: {
+    flavors: `${vdc_api_path}/flavors`,
+    flavor: `${vdc_api_path}/flavor`,
+  },
+  products: {
+    units: `${order_api_path}/units`,
+    unit: `${order_api_path}/unit/:unitId`,
+    products: `${order_api_path}/products`,
+    product: `${order_api_path}/product/:productId`,
+    packages: `${order_api_path}/packages`,
+    package: `${order_api_path}/package/:packageId`,
+    package_products: `${order_api_path}/package/:packageId/products`,
+    package_product: `${order_api_path}/package/:packageId/product/:productId`,
+  },
+  networks: {
+    networks: `${vdc_api_path}/networks`,
+    network: `${vdc_api_path}/network`,
+    routers: `${vdc_api_path}/routers`,
+    router: `${vdc_api_path}/router`,
+    routerInterfaces: `${vdc_api_path}/router/:routerId/interfaces`,
+    routerInterface: `${vdc_api_path}/router/:routerId/interface`,
+    secgroups: `${vdc_api_path}/secgroups`,
+    secgroup: `${vdc_api_path}/secgroup`,
+    secgroupRules: `${vdc_api_path}/secgroup/:secgroupId/rules`,
+    secgroupRule: `${vdc_api_path}/secgroup/:secgroupId/rule`,
+    subnets: `${vdc_api_path}/network/:networkId/subnets`,
+    subnet: `${vdc_api_path}/network/:networkId/subnet`,
+  },
+  loadBalancer: {
+    lbs: `${vdc_api_path}/lbaas/lbs`,
+    lb: `${vdc_api_path}/lbaas/lb/:lbId`,
+    listeners: `${vdc_api_path}/lbaas/listeners`,
+    listener: `${vdc_api_path}/lbaas/listener/:listenerId`,
+    pools: `${vdc_api_path}/lbaas/pools`,
+    pool: `${vdc_api_path}/lbaas/pool/:poolId`,
+    poolMembers: `${vdc_api_path}/lbaas/pool/:poolId/members`,
+    poolMember: `${vdc_api_path}/lbaas/pool/:poolId/member/:memberId`,
+    monitors: `${vdc_api_path}/lbaas/healthmonitors`,
+    monitor: `${vdc_api_path}/lbaas/healthmonitor/:monitorId`,
+    l7Policies: `${vdc_api_path}/lbaas/l7policies`,
+    l7Policy: `${vdc_api_path}/lbaas/l7policy/:l7PolicyId`,
+    l7Rules: `${vdc_api_path}/lbaas/l7policy/:l7PolicyId/l7rules`,
+    l7Rule: `${vdc_api_path}/lbaas/l7policy/:l7PolicyId/l7rule/:l7RuleId`,
+  },
+};
+
+export default path;

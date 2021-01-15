@@ -1,0 +1,126 @@
+.header-landing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  &--top {
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  height: 6.5rem;
+  background-color: #093c6e;
+  .text-white,
+  a,
+  span {
+    color: white !important;
+    &:hover {
+      color: #1da57a !important;
+    }
+  }
+  .text-black {
+    color: black !important;
+    &:hover {
+      color: #1da57a !important;
+    }
+    span {
+      color: black !important;
+      &:hover {
+        color: #1da57a !important;
+      }
+    }
+  }
+
+  ul {
+    border: none;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+  &--divider {
+    background-color: #3f688e;
+    margin: 0.4rem !important;
+    position: relative;
+    right: 6px;
+  }
+}
+.language {
+  width: 4.5rem;
+  .nation-icon {
+    width: 1rem;
+  }
+}
+
+.footer {
+  strong {
+    color: #427cff;
+    margin-bottom: 5px;
+  }
+  .ant-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .ant-col-7 {
+    padding: 10px 13px;
+  }
+  &--company {
+    top: -15px;
+  }
+  .location-logo {
+    font-size: 17px;
+  }
+  &--bottom {
+    padding: 10px 0px;
+    background-color: #083c6d;
+    a {
+      color: rgb(187, 181, 181) !important;
+      &:hover {
+        color: #427cff !important;
+      }
+    }
+  }
+  a {
+    color: black;
+    margin-bottom: 7px;
+    &:hover {
+      color: #427cff;
+    }
+  }
+  .contact {
+    background-color: #083c6d;
+    a,
+    strong {
+      text-align: center;
+    }
+    a {
+      color: white;
+      font-size: 1rem;
+      &:hover {
+        color: #427cff;
+      }
+    }
+  }
+}
+
+.content {
+  .our-product {
+    h3 {
+      margin-top: 10px;
+    }
+    padding: 20px 13px;
+    &--icon {
+      font-size: 6rem;
+    }
+  }
+  .benefit {
+    &--icon {
+      font-size: 5rem;
+    }
+  }
+  .our-customer {
+    filter: grayscale();
+    &:hover {
+      filter: none;
+    }
+  }
+}
